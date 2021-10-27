@@ -21,11 +21,8 @@ for (let item of allItems){
   }
 }
 }
-
-
 console.log(result);
 return result;
-
 }
 
 const firstNames = [
