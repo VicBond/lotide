@@ -34,18 +34,18 @@ const eqArrays = (index1, index2) => {
 
 // FUNCTION IMPLEMENTATION
 const without = (array1, removeItem) => {
-let newArr = [];
-for (let i of array1){
-  if (!removeItem.includes(i)){
-    newArr.push(i);
+  let newArr = [];
+  for (let i of array1) {
+    if (!removeItem.includes(i)) {
+      newArr.push(i);
+    }
   }
-}
-return newArr;
+  return newArr;
 };
 
 // TEST CODE
 
-console.log(without([1, 2, 3], [1])) // => [2, 3]
-console.log(without(["1", "2", "3"], [1, 2, "3"])) // => ["1", "2"]
+console.log(without([1, 2, 3], [1])); // => [2, 3]
+console.log(without(["1", "2", "3"], [1, 2, "3"])); // => ["1", "2"]
 const words = ["hello", "world", "lighthouse"];
-console.log(without(words, ["lighthouse"])); 
+console.log(without(words, ["lighthouse"]));
