@@ -1,5 +1,5 @@
 {
-  "name": "lotide",
+  "name": "@vick.bond/lotide",
   "version": "1.0.0",
   "description": "Library of JS assertion functions",
   "main": "assertArraysEqual.js",
@@ -13,7 +13,10 @@
     "type": "git",
     "url": "git+https://github.com/VicBond/lotide.git"
   },
-  "author": "",
+  "author": {
+    "name": "Victor Bondarenko",
+    "e-mail": "nirasimha@gmail.com"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/VicBond/lotide/issues"
